@@ -253,10 +253,8 @@ h1 {
 }
 
 .signal-card {
-  position: absolute;
-  right: 22px;
-  bottom: 86px;
-  width: min(56%, 280px);
+  width: min(100%, 500px);
+  margin-top: 18px;
   border: 1px solid rgba(255, 250, 241, 0.76);
   border-radius: 8px;
   padding: 18px;
@@ -632,9 +630,6 @@ h1 {
   }
 
   .signal-card {
-    right: 10px;
-    bottom: 82px;
-    width: 58%;
     padding: 14px;
   }
 
