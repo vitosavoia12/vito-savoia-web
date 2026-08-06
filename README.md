@@ -19,3 +19,4 @@ Abrir `index.html` en un navegador. No necesita instalación ni servidor local.
 - LinkedIn: https://ar.linkedin.com/in/vito-savoia-7b7443228
 - Articulos: https://paraviajarporelmundo.com/author/vito-savoia/
 - X / Twitter: https://x.com/vitosavoia12?lang=es
+ 
