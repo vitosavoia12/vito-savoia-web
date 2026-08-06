@@ -105,6 +105,12 @@ img {
   outline: none;
 }
 
+.language-link {
+  border: 1px solid rgba(15, 118, 110, 0.22);
+  background: rgba(15, 118, 110, 0.08);
+  color: var(--ink) !important;
+}
+
 .menu-toggle {
   display: none;
   width: 42px;

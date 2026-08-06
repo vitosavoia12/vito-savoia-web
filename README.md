@@ -9,6 +9,7 @@ Abrir `index.html` en un navegador. No necesita instalación ni servidor local.
 ## Que editar
 
 - Textos principales: `index.html`
+- Version en ingles: `en.html`
 - Estilos visuales: `styles.css`
 - Interaccion del menu mobile: `script.js`
 - Fotos: `assets/images/`
