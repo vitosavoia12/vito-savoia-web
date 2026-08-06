@@ -137,8 +137,8 @@ img {
   grid-template-columns: minmax(0, 1.02fr) minmax(340px, 0.98fr);
   gap: clamp(32px, 5vw, 76px);
   align-items: center;
-  min-height: min(720px, calc(100vh - 92px));
-  padding: clamp(54px, 8vw, 104px) 0 52px;
+  min-height: min(640px, calc(100vh - 92px));
+  padding: clamp(42px, 7vw, 78px) 0 42px;
 }
 
 .hero-copy {
@@ -164,17 +164,17 @@ p {
 h1 {
   max-width: 760px;
   margin: 0;
-  font-size: clamp(2.75rem, 5.4vw, 5.45rem);
-  line-height: 0.98;
+  font-size: clamp(2.55rem, 4.8vw, 4.9rem);
+  line-height: 1;
   letter-spacing: 0;
   text-wrap: balance;
 }
 
 .hero-text {
-  max-width: 680px;
-  margin: 24px 0 0;
+  max-width: 620px;
+  margin: 20px 0 0;
   color: var(--navy);
-  font-size: clamp(1.05rem, 1.5vw, 1.24rem);
+  font-size: clamp(1.02rem, 1.35vw, 1.17rem);
 }
 
 .hero-actions {
@@ -217,7 +217,7 @@ h1 {
 
 .hero-media {
   position: relative;
-  min-height: 560px;
+  min-height: 500px;
 }
 
 .hero-media::before {
@@ -232,7 +232,7 @@ h1 {
 .portrait-main {
   position: absolute;
   inset: 0 auto auto 0;
-  width: min(78%, 430px);
+  width: min(76%, 390px);
   aspect-ratio: 4 / 5;
   border: 10px solid var(--cream);
   border-radius: 8px;
@@ -244,7 +244,7 @@ h1 {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: min(48%, 250px);
+  width: min(45%, 220px);
   aspect-ratio: 1;
   border: 10px solid var(--cream);
   border-radius: 8px;
@@ -255,8 +255,8 @@ h1 {
 .signal-card {
   position: absolute;
   right: 34px;
-  bottom: 178px;
-  width: min(62%, 295px);
+  bottom: 160px;
+  width: min(64%, 310px);
   border: 1px solid rgba(255, 250, 241, 0.76);
   border-radius: 8px;
   padding: 18px;
@@ -313,7 +313,7 @@ h1 {
   display: grid;
   grid-template-columns: minmax(250px, 0.78fr) minmax(0, 1.22fr);
   gap: clamp(28px, 6vw, 88px);
-  padding: 88px 0;
+  padding: 72px 0;
   border-top: 1px solid var(--line);
 }
 
@@ -321,8 +321,8 @@ h1 {
 .writing-section h2,
 .contact-section h2 {
   margin: 0;
-  font-size: clamp(2rem, 4.1vw, 3.65rem);
-  line-height: 1;
+  font-size: clamp(1.9rem, 3.5vw, 3.15rem);
+  line-height: 1.04;
   text-wrap: balance;
 }
 
@@ -338,10 +338,30 @@ h1 {
   font-size: 1.08rem;
 }
 
+.compact-copy {
+  align-content: start;
+}
+
 .profile-copy p,
 .timeline-body p,
 .writing-section p {
   margin: 0;
+}
+
+.proof-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.proof-list span {
+  border: 1px solid rgba(15, 118, 110, 0.22);
+  border-radius: 999px;
+  padding: 8px 12px;
+  background: rgba(255, 250, 241, 0.72);
+  color: var(--navy);
+  font-size: 0.94rem;
+  font-weight: 800;
 }
 
 .experience-section {
@@ -359,7 +379,7 @@ h1 {
   gap: 28px;
   border: 1px solid var(--line);
   border-radius: 8px;
-  padding: clamp(20px, 3vw, 30px);
+  padding: clamp(18px, 2.5vw, 26px);
   background: rgba(255, 250, 241, 0.72);
 }
 
@@ -388,7 +408,7 @@ h1 {
 }
 
 .timeline-body ul {
-  margin: 14px 0 0;
+  margin: 0;
   padding-left: 18px;
 }
 
@@ -403,7 +423,7 @@ h1 {
 }
 
 .focus-grid article {
-  min-height: 230px;
+  min-height: 176px;
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: 24px;
@@ -429,7 +449,7 @@ h1 {
   justify-content: space-between;
   gap: 28px;
   border-radius: 8px;
-  padding: clamp(28px, 5vw, 56px);
+  padding: clamp(26px, 4vw, 44px);
   background:
     linear-gradient(135deg, rgba(18, 24, 38, 0.96), rgba(15, 118, 110, 0.91)),
     var(--ink);
@@ -446,7 +466,7 @@ h1 {
 
 .writing-section p {
   max-width: 650px;
-  margin-top: 18px;
+  margin-top: 12px;
   color: rgba(255, 250, 241, 0.78);
   font-size: 1.05rem;
 }
@@ -456,7 +476,7 @@ h1 {
   grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.95fr);
   gap: 36px;
   align-items: center;
-  padding: 88px 0 48px;
+  padding: 72px 0 42px;
 }
 
 .contact-panel {
@@ -531,7 +551,7 @@ h1 {
   }
 
   .hero-media {
-    min-height: 500px;
+    min-height: 470px;
   }
 
   .stats-band,
@@ -575,7 +595,7 @@ h1 {
   }
 
   .hero-media {
-    min-height: 430px;
+    min-height: 390px;
   }
 
   .hero-media::before {
@@ -600,7 +620,7 @@ h1 {
   }
 
   .section {
-    padding: 62px 0;
+    padding: 54px 0;
   }
 
   .stats-band article,
