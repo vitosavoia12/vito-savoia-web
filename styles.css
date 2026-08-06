@@ -254,9 +254,9 @@ h1 {
 
 .signal-card {
   position: absolute;
-  right: 34px;
-  bottom: 160px;
-  width: min(64%, 310px);
+  right: 22px;
+  bottom: 86px;
+  width: min(56%, 280px);
   border: 1px solid rgba(255, 250, 241, 0.76);
   border-radius: 8px;
   padding: 18px;
@@ -274,7 +274,7 @@ h1 {
 .signal-card strong {
   display: block;
   margin: 6px 0;
-  font-size: 1.18rem;
+  font-size: 1.04rem;
   line-height: 1.15;
 }
 
@@ -346,6 +346,25 @@ h1 {
 .timeline-body p,
 .writing-section p {
   margin: 0;
+}
+
+.interest-list {
+  display: grid;
+  gap: 12px;
+}
+
+.interest-list article {
+  border-left: 3px solid var(--teal);
+  padding: 4px 0 4px 16px;
+}
+
+.interest-list h3 {
+  margin: 0 0 4px;
+  font-size: 1.02rem;
+}
+
+.interest-list p {
+  color: var(--muted);
 }
 
 .proof-list {
@@ -613,9 +632,9 @@ h1 {
   }
 
   .signal-card {
-    right: 12px;
-    bottom: 132px;
-    width: 70%;
+    right: 10px;
+    bottom: 82px;
+    width: 58%;
     padding: 14px;
   }
 
